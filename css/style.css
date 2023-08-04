@@ -1,0 +1,63 @@
+@import url(reset.css);
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.digit {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+}
+
+.separator {
+    font-size: 1.5rem;
+    margin: 0 2px;
+}
+
+.ds-none {
+    display: none;
+}
+
+
+#digit1 {
+    background-image: url('images/0.png');
+}
+#digit2 {
+    background-image: url('images/1.png');
+}
+#digit3 {
+    background-image: url('images/2.png');
+}
+#digit4 {
+    background-image: url('images/3.png');
+}
+#digit5 {
+    background-image: url('images/4.png');
+}
+#digit6 {
+    background-image: url('images/5.png');
+}
+#digit7 {
+    background-image: url('images/6.png');
+}
+#digit8 {
+    background-image: url('images/7.png');
+}
+#digit9 {
+    background-image: url('images/8.png');
+}
+#digit10 {
+    background-image: url('images/9.png');
+}
